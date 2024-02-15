@@ -1,14 +1,16 @@
-/* Aqua Green Theme */
+#ds {
+  color: black;
+}
 
 main {
-    background: #3bffb7;
-    color: #121213;
+  background: #121213;
+  color: #e2e9f3;
 }
 
 .icons-social a {
-    color: #121213;
+  color: #e2e9f3;
 }
 
-.icons-social a svg path{
-    fill: #121213;
+.icons-social a svg path {
+  fill: #e2e9f3;
 }
