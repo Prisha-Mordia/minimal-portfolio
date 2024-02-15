@@ -11,7 +11,7 @@ I have created and used the Aqua green theme.
 You can customize and create your own if it doesn't match your taste!
 ## GitHub Pages
 
-**Here is my [Minimal Dev Portfolio](https://punit-choudhary.github.io/Minimal-Portfolio/)**
+**Here is my [Minimal Dev Portfolio](https://prisha-mordia.github.io/minimal-portfolio/)**
 
 GitHub makes it easy to create personal websites. Follow this link - [GitHub Pages](https://pages.github.com/) to know how, or follow the steps below:
 
@@ -21,8 +21,3 @@ I assume you already have a GitHub account!
 * Go to Repo setting and scroll down to GitHub Pages
 * In the source section, select your branch and click on Save.
 Voila! Your site should be live at `https://{username}.github.io`
-
-
-## License
-
-MIT © Punit Choudhary
