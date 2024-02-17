@@ -21,15 +21,20 @@
 </head>
 
 <body>
+    <div id="cursor"></div>
+    <div id="cursor-border"></div>
     <main>
-        <div class="intro">Hello, I'm Prisha Mordia!</div>
+        <div class="intro" data-cursor="pointer2">Hello, I'm <span id="name">Prisha Mordia!</span></div>
         <div class="tagline">Webdev | <span> </span><span id="ds"> DataScience </span> | Tech </div>
-        <!-- Find more icons from here - https://fontawesome.com/icons?d=gallery -->
         <div class="icons-social">
-            <a target="_blank" href="https://github.com/Prisha-Mordia"><i class="fab fa-github"></i></a>
-            <a target="_blank" href="https://instagram.com/priipvt.23"><i class="fab fa-instagram"></i></a>
-            <a target="_blank" href="https://twitter.com/prisha_dev"><i class="fab fa-x-twitter"></i></a>
-            <a target="_blank" href="https://www.linkedin.com/in/prisha-mordia/"><i class="fab fa-linkedin"></i></a>
+            <a target="_blank" data-cursor="pointer" href="https://github.com/Prisha-Mordia"><i
+                    class="fab fa-github"></i></a>
+            <a target="_blank" id="hackerrank" data-cursor="pointer"
+                href="https://www.hackerrank.com/profile/prishamoradiya23"><i class="fab fa-hackerrank"></i></a>
+            <a target="_blank" data-cursor="pointer" href="https://twitter.com/prisha_dev"><i
+                    class="fab fa-x-twitter"></i></a>
+            <a target="_blank" id="linkedin" data-cursor="pointer" href="https://www.linkedin.com/in/prisha-mordia/"><i
+                    class="fab fa-linkedin"></i></a>
         </div>
     </main>
 
@@ -41,6 +46,7 @@
             annotation.show();
         }
     </script>
+    <script src="./js/cursor.js"></script>
 </body>
 
 </html>
