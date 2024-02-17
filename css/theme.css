@@ -14,3 +14,20 @@ main {
 .icons-social a svg path {
   fill: #e2e9f3;
 }
+
+#name {
+  animation: clr 3s infinite;
+  color: pink;
+}
+
+@keyframes clr {
+  100%{filter: hue-rotate(360deg);}
+}
+
+#hackerrank:hover {
+  color: #32c766;
+}
+
+#linkedin:hover {
+  color: #0077b5;
+}
